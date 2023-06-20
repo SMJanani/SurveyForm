@@ -1,0 +1,247 @@
+body{
+    padding: 5px;
+    font-size: 15px;
+}
+.required::after{
+    content: "*";
+    color:red;
+}
+.required{
+    font-weight: bold;
+    font-size: 16px;
+}
+#name{
+    padding:3px;
+    border-radius: 3px;
+    width: 200px;
+}
+#email{
+    width:410px;
+    padding:3px;
+    border-radius: 3px;
+}
+.star-rating {
+    margin: 25px 0 0px;
+   font-size: 0;
+   white-space: nowrap;
+   display: inline-block;
+   width: 175px;
+   height: 35px;
+   overflow: hidden;
+   position: relative;
+   background: url('data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iMjBweCIgaGVpZ2h0PSIyMHB4IiB2aWV3Qm94PSIwIDAgMjAgMjAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIiB4bWw6c3BhY2U9InByZXNlcnZlIj48cG9seWdvbiBmaWxsPSIjREREREREIiBwb2ludHM9IjEwLDAgMTMuMDksNi41ODMgMjAsNy42MzkgMTUsMTIuNzY0IDE2LjE4LDIwIDEwLDE2LjU4MyAzLjgyLDIwIDUsMTIuNzY0IDAsNy42MzkgNi45MSw2LjU4MyAiLz48L3N2Zz4=');
+   background-size: contain;
+ }
+ .star-rating i {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 20%;
+    z-index: 1;
+    background: url('data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iMjBweCIgaGVpZ2h0PSIyMHB4IiB2aWV3Qm94PSIwIDAgMjAgMjAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIiB4bWw6c3BhY2U9InByZXNlcnZlIj48cG9seWdvbiBmaWxsPSIjRkZERjg4IiBwb2ludHM9IjEwLDAgMTMuMDksNi41ODMgMjAsNy42MzkgMTUsMTIuNzY0IDE2LjE4LDIwIDEwLDE2LjU4MyAzLjgyLDIwIDUsMTIuNzY0IDAsNy42MzkgNi45MSw2LjU4MyAiLz48L3N2Zz4=');
+    background-size: contain;
+  }
+  .star-rating input {
+    opacity: 0;
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    z-index: 2;
+    position: relative;
+  }
+  .star-rating input:hover + i,
+.star-rating input:checked + i {
+  opacity: 1;
+}
+.star-rating i ~ i {
+  width: 40%;
+}
+.star-rating i ~ i ~ i {
+  width: 60%;
+}
+.star-rating i ~ i ~ i ~ i {
+  width: 80%;
+}
+.star-rating i ~ i ~ i ~ i ~ i {
+  width: 100%;
+}
+
+#lab1,#p1{
+    margin-left: 120px;
+}
+#lab2,#lab3,#lab4,#lab5{
+    margin-left: 20px;
+}
+#p2,#p3,#p4,#p5{
+    margin-left: 60px;
+}
+#s1{
+    margin-left: 130px;
+}
+#s2,#s3,#s4,#s5{
+    margin-left: 61px;
+}
+#c1{
+    margin-left: 65px;
+}
+#c2,#c3,#c4,#c5{
+    margin-left: 62px;
+}
+#p1,#p2,#p3,#p4,#p5{
+    border-radius: 2px;   
+}
+
+.purchase,.overall{
+    padding:10px 2px;
+    background-color: rgba(125, 101, 101, 0.153);
+    border-radius: 2px;
+    width: 590px;
+}
+.service{
+    padding:0px 2px;
+    background-color: rgba(125, 101, 101, 0);
+    border-radius: 2px;
+    width: 590px;
+}
+#label1{
+    margin-left: 130px;
+}
+#label2,#label3,#label4,#label5{
+    margin-left: 30px;
+}
+#b1{
+    margin-left: 55px;
+}
+#b2,#b3,#b4,#b5{
+    margin-left: 68px;
+}
+#pro1{
+    margin-left: 68px;
+}
+#pro2,#pro3,#pro4,#pro5{
+    margin-left: 68px;
+}
+#r1{
+    margin-left: 57px;
+}
+#r2,#r3,#r4,#r5{
+    margin-left: 68px;
+}
+.buy,.recompany{
+    padding:10px 2px;
+    background-color: rgba(125, 101, 101, 0.153);
+    border-radius: 2px;
+    width: 590px;
+}
+.product{
+    padding:0px 2px;
+    background-color: rgba(125, 101, 101, 0);
+    border-radius: 2px;
+    width: 590px;
+}
+#submit{
+    padding:10px;
+}
+#l1{
+    margin-left: 180px;
+}
+
+
+
+/* media query */
+@media screen and (max-width: 591px) {
+    #name{
+        padding:3px;
+        border-radius: 3px;
+        width: 100px;
+    }
+    #l1{
+        margin-left: 90px;
+    }
+    #lab1,#p1{
+        margin-left: 60px;
+    }
+    #lab2,#lab3,#lab4,#lab5{
+        margin-left: 5px;
+    }
+    #p2,#p3,#p4,#p5{
+        margin-left: 50px;
+    }
+    #s1{
+        margin-left: 70px;
+    }
+    #s2,#s3,#s4,#s5{
+        margin-left: 50px;
+    }
+    #c1{
+        margin-left: 10px;
+    }
+    #c2,#c3,#c4,#c5{
+        margin-left: 50px;
+    }
+    .purchase,.overall{
+        padding:10px 2px;
+        background-color: rgba(125, 101, 101, 0.153);
+        border-radius: 2px;
+        width: 470px;
+    }
+    .service{
+        padding:0px 2px;
+        background-color: rgba(125, 101, 101, 0);
+        border-radius: 2px;
+        width: 470px;
+    }
+    #label1{
+        margin-left: 90px;
+    }
+    #label2,#label3,#label4,#label5{
+        margin-left: 10px;
+    }
+    #b1{
+        margin-left: 25px;
+    }
+    #b2,#b3,#b4,#b5{
+        margin-left: 40px;
+    }
+    #pro1{
+        margin-left: 38px;
+    }
+    #pro2,#pro3,#pro4,#pro5{
+        margin-left: 38px;
+    }
+    #r1{
+        margin-left: 30px;
+    }
+    #r2,#r3,#r4,#r5{
+        margin-left: 38px;
+    }
+    .buy,.recompany{
+        padding:10px 2px;
+        background-color: rgba(125, 101, 101, 0.153);
+        border-radius: 2px;
+        width: 470px;
+    }
+    .product{
+        padding:0px 2px;
+        background-color: rgba(125, 101, 101, 0);
+        border-radius: 2px;
+        width: 470px;
+    }
+    .line1{
+        position: fixed;
+        left:2px;
+    }
+    .line2{
+        position: fixed;
+        left:2px;
+    }
+}
+
+
+
+
+
